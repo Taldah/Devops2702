@@ -24,6 +24,6 @@ def show_name():
     my_files.close()
 
 
-for i in range(3):
+for i in range(4):
     get_name()
 show_name()
