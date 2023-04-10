@@ -1,6 +1,6 @@
 properties([pipelineTriggers([githubPush()])])node{
     stage("clone"){
-        git "https://github.com/avielb/DevOps2702.git"
+        git "https://github.com/Taldah/Devops2702.git"
     }
     stage("execute"){
         sh "ls -l"
