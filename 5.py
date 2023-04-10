@@ -1,5 +1,5 @@
 isTrue = False
-a = True
+a = False
 b = 2.5
 strOne = "One"
 strThree = "Three"
@@ -12,4 +12,4 @@ elif (not a) == b:
 elif strOne != strThree:
     print("blabla")
 else:
-    print("b is greater then a")
+    print("b is greater then g")
